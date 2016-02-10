@@ -1,0 +1,7 @@
+.DS_Store
+.vagrant/
+.env
+Vagrantfile
+composer.lock
+cache/
+vendor/

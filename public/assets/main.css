@@ -1,0 +1,86 @@
+.push-down {
+  margin-top: 20px;
+}
+
+/* Home Page */
+.empty-well {
+  background: transparent;
+}
+
+.bigger-icon {
+  font-size: 48px;
+}
+
+/* Carousel */
+.carousel {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* Footer */
+.padding-left {
+  padding-left: 15px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  padding: 2rem;
+  background-color: #C1D2D1;
+}
+
+/* Register Page */
+.error {
+  color: #C1D2D1;
+}
+
+/* admin */
+.admin-hidden {
+  display: none;
+}
+
+.admin-display {
+  display: inline-block;
+}
+
+.outlined {
+  border: 3px dotted #1BD3FF;
+}
+/* */
+
+.jumbotron {
+  background-color: #A5CCD2!important;
+}
+
+.navbar {
+  background-color: #C1D2D1 !important;
+}
+
+.page-header {
+  text-align: center !important;
+  color: #A5CCD2 !important;
+}
+
+.h3home {
+  color: #A5CCD2;
+}
