@@ -3,5 +3,6 @@
 .env
 Vagrantfile
 composer.lock
+phinx.yml
 cache/
 vendor/

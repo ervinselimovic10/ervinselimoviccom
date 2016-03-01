@@ -17,11 +17,6 @@
             required: true,
             email: true
           },
-          verify_email: {
-            required: true,
-            email: true,
-            equalTo: '#email'
-          },
           verify_password: {
             required: true,
             equalTo: '#password'
@@ -29,3 +24,29 @@
         }
       });
     });
+
+    $(function(){
+      $('#loginform').validate({
+        rules: {
+          email: {
+            required: true, 
+            email: true
+          },
+          password: {
+            required: true,
+            minlength: 5
+          }
+        }
+      });
+    });
+
+    $(function(){
+      $('#newpass').validate({
+        rules: {
+          email: {
+            required: true,
+            email: true
+          }
+        }
+      });
+    })

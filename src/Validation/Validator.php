@@ -10,86 +10,85 @@ class Validator
         $errors = [];
 
       foreach ($validation_data as $name => $value) {
-          $input = $_POST[$name];
+          if (isset($_POST[$name])) {
+            $input = $_POST[$name];
+          } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
 
-          if (isset($input)) {
-              $rules = explode('|', $value);
+            unset($_SESSION['onz[user]']);
+            session_destroy();
+            session_start();
+            $_SESSION['msg'] = ["Logged out because of some strange attempt: <strong>".$ip."</strong>"];
+            header("Location: /");
+            exit();
+          }
+          $rules = explode('|', $value);
                   
               foreach ($rules as $rule) {
                   $exploded = explode(':', $rule);
 
                   switch ($exploded[0]) {
                     case 'min':
-                      $min = $exploded[1];
-                      if (v::stringType()
-                             ->alpha()
-                             ->notEmpty()
-                             ->length($min, null)
-                             ->noWhitespace()
-                             ->validate($input) == false) {  
-                          $name = $this->nameSet($name);
+                        $min = $exploded[1];
+                        $name = $this->nameSet($name);
 
-                          if (v::notEmpty()->validate($input) == false) {
+                          if (v::stringType()->notEmpty()->validate($input) == false) {
                             $errors[] = "Field <strong>".$name."</strong> should not be empty!";
-                          } elseif(v::length($min, null)->validate($input) == false) {
-                            $errors[] = "<strong>".$name."</strong> should be at least <strong>".$min."</strong> characters long!";
-                          } elseif(v::noWhitespace()->validate($input) == false) {
+                          } elseif (v::stringType()->length($min, 20)->validate($input) == false) {
+                            $errors[] = "<strong>".$name."</strong> should be at least <strong>".$min."</strong> characters long and max. 20 characters!";
+                          } elseif (v::stringType()->noWhitespace()->validate($input) == false) {
                             $errors[] = "Your input <strong>'".$input."'</strong> in field <strong>".$name."</strong> sould not contain whitespace!";
-                          } else {
+                          } elseif (v::stringType()->alpha()->validate($input) == false) {
                             $errors[] = "Your input <strong>'".$input."'</strong> in field <strong>".$name."</strong> contains strange characters!";
-                          }
-                      }
-                    break;
+                          }             
+                          break;
 
                     case 'pass':
-                      $pass = $exploded[1];
-                      if (v::stringType()
-                             ->notEmpty()
-                             ->length($pass, null)
-                             ->validate($input) == false) {
-                          $name = $this->nameSet($name);
+                        $pass = $exploded[1];
+                        $name = $this->nameSet($name);
 
-                          if (v::notEmpty()->validate($input) == false) {
+                          if (v::stringType()->notEmpty()->validate($input) == false) {
                             $errors[] = "Field <strong>".$name."</strong> should not be empty!";
-                          } else {
+                          } elseif (v::stringType()->length($pass, null)->validate($input) == false) {
                             $errors[] = "<strong>".$name."</strong> must be at least ".$pass." characters long!";
                           }
-                      }
-                    break;
+                          break;
 
                     case 'email':
-                      if (v::stringType()
-                             ->email()
-                             ->notEmpty()
-                             ->length(5, null)
-                             ->validate($input) == false) {
-                          $name = $this->nameSet($name);
+                        $name = $this->nameSet($name);
 
-                          if (v::notEmpty()->validate($input) == false) {
+                          if (v::stringType()->notEmpty()->validate($input) == false) {
                             $errors[] = "Field <strong>".$name."</strong> should not be empty!";
-                          } else {
+                          } elseif (v::stringType()->email()->length(5, 65)->validate($input) == false) {
                             $errors[] = "<strong>'".$input."'</strong> is not a valid email address!";
                           }
-                      }
-                    break;
+                          break;
 
                     case 'equalTo':
-                      $name = $this->nameUnset($name);
+                        $name = $this->nameUnset($name);
 
-                      if (v::identical($input)
-                             ->validate($_POST[$exploded[1]]) == false) {
-                          $name = $this->nameSet($name);
-                          $errors[] = '<strong>'.$name.'s</strong> must be identical!';
-                      }
-                    break;
+                          if (v::identical($input)
+                                 ->validate($_POST[$exploded[1]]) == false) {
+                              $name = $this->nameSet($name);
+                              $errors[] = '<strong>'.$name.'s</strong> must be identical!';
+                          }
+                          break;
+
+                    case 'unique':
+                      $name = $this->nameUnset($name);
+                      $model = "Onz\\Models\\".$exploded[1];
+                      $table = new $model;
+                      $results = $table::where($name, '=', $input)->get();
+                      
+                        foreach ($results as $item) {
+                          $errors[] = "<strong>".$input."</strong> already exists in our system! Please retry.";
+                        }
+                          break;
 
                     default:
-                      // Nothing for default
+                      $errors[] = "NO VALUE FOUND!";
                   }
               }
-          } else {
-              $errors[] = "NO VALUE FOUND!";
-          }
       }
         return $errors;
     }
