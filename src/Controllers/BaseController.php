@@ -12,6 +12,6 @@ class BaseController
   public function __construct()
   {
     $this->signer = new SignatureGenerator(getenv('CSRF'));
-    $this->blade = new BladeInstance('/onesnzeros/views/', '/onesnzeros/cache/views/');
+    $this->blade = new BladeInstance('/home/httpd/ervinselimovic.com/http/onesnzeros/views/', '/home/httpd/ervinselimovic.com/http/onesnzeros/cache/views/');
   }
 }
