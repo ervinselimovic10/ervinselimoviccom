@@ -51,7 +51,7 @@ class LoginController extends BaseController
 
         // User Found or Not
         if ($user != null) {
-          if ($user->active === 616) {
+          if ($user->active == 616) {
                 $existing_fn = $user->first_name;
                 $existing_mail = $user->email;
                 $existing_pass = $user->password;
