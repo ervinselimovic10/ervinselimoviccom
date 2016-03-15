@@ -1,7 +1,7 @@
 @extends('home-base')
 
 @section('browsertitle')
-  onesnzeros | login
+  ervinselimovic fwd | login
 @stop
 
 @section('content')

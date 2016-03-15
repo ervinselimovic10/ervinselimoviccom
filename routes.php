@@ -10,8 +10,6 @@ $router->map('GET', '/cookies', 'Onz\Controllers\PageController@getCookies', 'co
 
 if (Onz\Auth\LoggedIn::user()) {
   $router->map('GET', '/logout', 'Onz\Controllers\LoginController@getLogout', 'logout');
-  $router->map('GET', '/contact', 'Onz\Controllers\ContactController@getContact', 'contact');
-  $router->map('POST', '/contact', 'Onz\Controllers\ContactController@postContact', 'p_contact');
   $router->map('GET', '/profile', 'Onz\Controllers\ProfileController@getProfile', 'profile');
   $router->map('POST', '/profile', 'Onz\Controllers\ProfileController@postProfile', 'p_profile');
   $router->map('GET', '/5E32JWSATE1cqzs2iCHcP3ixsx1z308d', 'Onz\Controllers\ProfileController@getChangePass', 'change_pass');

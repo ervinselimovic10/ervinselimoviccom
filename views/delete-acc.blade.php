@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  onesnzeros | profile-delete-account
+  ervinselimovic fwd | profile-delete-account
 @stop
 
 @section('content')

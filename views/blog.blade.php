@@ -1,7 +1,7 @@
 @extends('base') 
 
 @section('browsertitle')
-  onesnzeros | blog
+  ervinselimovic fwd | blog
 @stop
 
 @section('content')

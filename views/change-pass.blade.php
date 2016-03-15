@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  onesnzeros | profile-change-password
+  ervinselimovic fwd | profile-change-password
 @stop
 
 @section('content')

@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  onesnzeros | admin-delete
+  ervinselimovic | admin-delete
 @stop
 
 @section('content')

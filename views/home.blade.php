@@ -1,7 +1,7 @@
 @extends('home-base') 
 
 @section('browsertitle')
-  onesnzeros | home
+  ervinselimovic fwd | welcome
 @stop
 
 
@@ -14,7 +14,7 @@
       @include('error')
       <div class="col-sm-12">
         <div class="hages">
-          <h1 class="homeheader">onesnzeros</h1>
+          <h1 class="homeheader">ervinselimovic</h1>
           <h3 class="homelead">be the part of computer art</h3>
           <hr/>
         </div>
@@ -31,9 +31,9 @@
 
               <div id="cookieuse">
               <p id="closecookies" class="text-center"><i class="fa fa-times"></i> close</p>
-              <p>To bring you onesnzeros, we use cookies, for greater user experience, like every other dynamic web site. 
-              Cookies help personalize your content, and provide you with a better, faster, safer onesnzeros experience. By using our services, 
-              you agree to our <strong><a href="/cookies" target="_blank" class="php">cookie use</a></strong>.</p><br/>
+              <p>To bring you my blogging system, I use cookies, for greater user experience, like every other dynamic web site. 
+              Cookies help personalize your content, and provide you with a better, faster, safer experience. By using my site, 
+              you agree to my <strong><a href="/cookies" class="php">cookie use</a></strong>.</p><br/>
               </div>
 
               <div id="hideshow">
@@ -48,12 +48,11 @@
           <br/>
             <h3>Welcome, dear friend!</h3>
               <p>
-              My name is Ervin Selimovic and I am a web developer, mostly focused on server side with <a href="http://php.net/" target="_blank" class="php"><strong>php</strong></a>.
-              Simply said, I just love to share solved programming constraints I’m dealing with every day, 
-              while working on different projects, with programmers who are trying to reach the next level. 
-              So I made something simple for you with love, that didn’t took me a huge amount of time, 
-              but still I’ll be upgrading it constantly, so as the site feautures for better user experience, 
-              so as posting the fresh sharp-tounged content. Feel free to go on and click on read about button for more info!
+              My name is Ervin Selimovic and I am a freelance web developer, mostly focused on server side with <a href="http://php.net/" target="_blank" class="php"><strong>php</strong></a>.
+              Simply said, I just love to code and share solved programming constraints I’m dealing with every day, 
+              while working on different projects. <br/>
+              So I built something simple with love, that I’ll upgrade constantly, so as the site feautures for better user experience, 
+              so as posting the fresh sharp-tounged learning content. Feel free to go on and visit my blog or click on read about button for more info!
               </p>
               <br/>
           </div>
@@ -68,8 +67,7 @@
             </div>
             <div class="text-center socialmedia">
               <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="https://twitter.com/onesnzeros10" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href="https://github.com/onesnzeros10" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://github.com/ervinselimovic10" target="_blank"><i class="fa fa-github"></i></a>
               <br/>
             </div>
           </div>

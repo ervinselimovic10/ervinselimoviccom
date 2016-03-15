@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  onesnzeros | admin-add-user
+  ervinselimovic | admin-add-user
 @stop
 
 @section('content')
@@ -36,12 +36,12 @@
                 <td>{{ $user->id }}</td>
                 <td>{{ $user->first_name." ".$user->last_name }}</td>
                 <td>{{ $user->email }}</td>
-                @if ($user->active === 616)
+                @if ($user->active == 616)
                   <td style="color:green;">Active</td>
                 @else
                   <td style="color:red;">Not Active</td>
                 @endif
-                @if ($user->access_level === 666)
+                @if ($user->access_level == 666)
                   <td style="color:green;"><strong>ADMIN</strong></td>
                 @else
                   <td>User</td>

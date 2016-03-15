@@ -1,7 +1,7 @@
 @extends('home-base') 
 
 @section('browsertitle')
-  onesnzeros | page not found
+  ervinselimovic fwd | page not found
 @stop
 
 
@@ -9,19 +9,6 @@
 <hr/>
 <br/>
 <br/>
-@if (!empty($msg))
-<div class="container">
-  <div class="row">
-    <div class="col-sm-2">
-    </div>
-    <div class="col-sm-8">
-      <h1>{{ $msg }}</h1>
-    </div>
-    <div class="col-sm-2">
-    </div>
-  </div>
-</div> 
-@else
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
@@ -33,7 +20,6 @@
     </div>
   </div>
 </div> 
-@endif
 <div style="margin-top:-150px;" class="container">
 <div class="row">
 <div class="col-sm-12">

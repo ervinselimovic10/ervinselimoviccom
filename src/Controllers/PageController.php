@@ -143,7 +143,7 @@ class PageController extends BaseController
 
       // If page exists and if user loggedin -> display page
       if ($page_exists == true) {
-        if (LoggedIn::user()) {
+
             $page = Page::where('slug', '=', $target)->get();
 
             foreach ($page as $item) {
@@ -159,11 +159,6 @@ class PageController extends BaseController
               $slug = $item->slug;
               $date = $this->formatDate($item->created_at);
             }
-        } else {
-          $msg = "You must be logged in to view the content! Thank you for your understanding.";
-          echo $this->blade->render('404', ['msg' => $msg]);
-          exit();
-        }
       } else {
         echo $this->blade->render('404');
         exit();

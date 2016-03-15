@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">onesnzeros</a>
+          <a class="navbar-brand" href="/">ervinselimovic</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
@@ -15,13 +15,10 @@
             <li {!! Onz\Controllers\PageController::myActiveClass('/') !!}><a href="/">Welcome</a></li>
             <li {!! Onz\Controllers\PageController::myActiveClass('/about') !!}><a href="/about">About</a></li>
             <li {!! Onz\Controllers\PageController::myActiveClass('/blog') !!}><a href="/blog">Blog</a></li>
-            @if(Onz\Auth\LoggedIn::user())
-            <li {!! Onz\Controllers\PageController::myActiveClass('/contact') !!}><a href="/contact">Contact</a></li>
-            @endif
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            @if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level === 666))
+            @if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 666))
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
                 <ul class="dropdown-menu">

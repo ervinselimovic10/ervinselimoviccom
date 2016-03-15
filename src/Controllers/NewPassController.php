@@ -52,7 +52,7 @@ class NewPassController extends BaseController
 
         // User Found or Not
         if ($user != null) {
-          if ($user->active === 616) {
+          if ($user->active == 616) {
             $page = new PageController;
             $date = date('Y-m-d');
             if ($user->updated_at == true) {

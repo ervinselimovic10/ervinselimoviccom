@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  onesnzeros | admin-add-page
+  ervinselimovic | admin-add-page
 @stop
 
 @section('content')

@@ -84,6 +84,7 @@
                 @endif
 
                 <hr/>
+                @if (Onz\Auth\LoggedIn::user())
                 <!-- Post comment -->
                 <div class="well">
                     <h4><i class="fa fa-comment-o"></i> Leave a Comment:</h4>
@@ -95,6 +96,14 @@
                         <button type="submit" name="submit" id="submit" class="btn btn-default button">Comment</button>
                     </form>
                 </div>
+                @else
+                <div class="well">
+                    <h4><i class="fa fa-comment-o"></i> Leave a Comment:</h4><br/>
+                    <p>Sorry, you must be logged in to comment...</p>
+                    <p>Login <a href="/login">here</a>!</p>
+                    <p><a href="/register">Don't have an account yet?</a></p>
+                </div>
+                @endif
                 <hr/>
             </div>
 

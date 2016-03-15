@@ -17,7 +17,7 @@ class SendEmail
 
     $message = \Swift_Message::newInstance()
                ->setSubject($subject)
-               ->setFrom([$from => '.onz'])
+               ->setFrom([$from => 'Ervin Selimovic'])
                ->setTo($to)
                ->setBody($message, 'text/html');
 

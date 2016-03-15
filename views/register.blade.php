@@ -1,7 +1,7 @@
 @extends('home-base')
 
 @section('browsertitle')
-  onesnzeros | register
+  ervinselimovic fwd | register
 @stop
 
 @section('content')
@@ -12,7 +12,7 @@
         <hr/>
         <br/>
         <h5 style="color:green;">Offers</h5>
-        <p>As soon as you register, you'll recieve an email with activation link.
+        <p>As soon as you register, you'll recieve an email with activation link (PLEASE CHECK YOUR SPAM FOLDER).
         When you activate your account and log in, you will have full control over your account.
         Profile button will appear in the right corner of navigation, 
         where you can manage comments you make, change your password, and even delete your account
