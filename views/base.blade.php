@@ -59,14 +59,6 @@
         
 @yield('content')
 
-    <footer class="footer">
-        <p class="pull-right"><small><a href="/cookies" class="footercookies">cookie use</a></small></p>
-        <p class="text-muted">ervin selimovic, web developer
-        <br/>&copy; ervinselimovic 2016</p>
-    </footer>
-    </div>
-  </div>
-
   <script src="jquery/jquery-1.11.3.min.js"></script>
   <script src="jquery/jquery-migrate-1.2.1.min.js"></script>
   <script src="jquery/jquery.validate.js"></script>

@@ -31,6 +31,15 @@ html {
   min-height: 100%;
 }
 body {
+  background: url('/assets/img/background1.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          z-index: -1;
+          background-attachment: fixed;
+          font-family: Raleway;
   /* Margin bottom by footer height */
   margin-bottom: 120px;
   font-family: Raleway, sans-serif;
@@ -48,7 +57,7 @@ body > .container {
   margin: 20px 0;
 }
 
-/* Simple update here */
+/* ADDING NEW */
 .homemain {
   color: rgb(96, 217, 241);
   font-weight: 400;
@@ -102,7 +111,8 @@ body > .container {
 }
 
 .socialmedia a:hover {
-  color: rgb(85, 199, 255);
+  /*color: rgb(85, 199, 255);*/
+  color: rgb(102, 102, 102);
 }
 
 .php {
@@ -187,7 +197,7 @@ input[type="password"]:focus {
   text-decoration: none !important;
   color: rgb(85, 199, 255);
 }
-/* Simple update here */
+/* ADDING NEW */
 
 .footer {
   bottom: 0;

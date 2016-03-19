@@ -12,7 +12,7 @@
           <section>
             <br/>
             <h3 class="homemain">be the part of computer art</h3>
-            <h3 class="homelead">ervinselimovic.com</h3>
+            <h3 class="homelead">ervinselimovic</h3>
             <br/>
 
             <h3 class="muted">whoami</h3>
