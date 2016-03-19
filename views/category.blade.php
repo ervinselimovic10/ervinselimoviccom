@@ -1,4 +1,4 @@
-@extends('base') 
+@extends('blog-base') 
 
 @section('browsertitle')
   {{ $b_title }}

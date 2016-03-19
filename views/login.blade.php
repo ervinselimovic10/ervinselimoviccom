@@ -1,21 +1,19 @@
-@extends('home-base')
+@extends('base')
 
 @section('browsertitle')
-  ervinselimovic fwd | login
+  Ervin Selimovic - Login
 @stop
 
 @section('content')
-  <div class="container">
-    <div class="row">
+        <div class="col-sm-1">
+        </div>
 
-      <div class="col-md-3">
-      </div>
-
-      <div class="col-md-6">
-      <hr/>
+        <div class="col-sm-6">
       <br/>
-        <h1 class="page-header">Sign in</h1>
-
+      <br/>
+      <section class="pages">
+        <h1 class="homelead">Sign in</h1>
+        <hr/>
         @include('error')
         @include('success')
         
@@ -37,7 +35,7 @@
                 </div>
             </div>
 
-                <p>&nbsp;&nbsp;&nbsp;<small><a href="/vux0knNl2XPj4qei2az4D82mnWmu5ULp" class="forgotpass">Forgot your password?</small></a></p>
+                <p><small><a href="/vux0knNl2XPj4qei2az4D82mnWmu5ULp" class="forgotpass">Forgot your password?</a></small></p>
 
             <hr/>
 
@@ -48,13 +46,15 @@
             </div>
   
         </form>       
-      </div>
+      </section>
 
-      <div class="col-md-3">
-      </div>
+        </div>
 
+        <div class="col-sm-1">
+        </div>
     </div>
   </div>
+</section>
 @stop
 
 @section('validatejs')

@@ -1,14 +1,14 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
-  ervinselimovic fwd | profile
+  Ervin Selimovic - My Profile
 @stop
 
 @section('content')
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
-    <h3>Your Profile</h3>
+    <h3>My Profile</h3>
       <div class="avatar">
         <img src="/assets/img/avataricon.jpg" class="img-thumbnail" alt="onz avatar"/>
       </div>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="col-sm-6">
-      <h3>Your Comments (total: {{ count($comments) }})</h3>
+      <h3>My Comments (total: {{ count($comments) }})</h3>
         <p class="lead">Delete a comment</p>
         @include('error')
         @include('success')

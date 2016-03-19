@@ -1,14 +1,14 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
-  ervinselimovic fwd | profile-change-password
+  Ervin Selimovic - Change Password
 @stop
 
 @section('content')
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
-        <h3>Your Profile</h3>
+        <h3>My Profile</h3>
         <div class="avatar">
           <img src="/assets/img/avataricon.jpg" class="img-responsive img-thumbnail" alt="avatar"/>
         </div>
@@ -41,7 +41,7 @@
 
     <form action="/5E32JWSATE1cqzs2iCHcP3ixsx1z308d" method="post" class="form-horizontal">
       <h3>Follow the procedure below:</h3><br/>
-      <p><small style="color:green;">Having any trouble? Feel free to <a href="#">contact me</a>!</small></p>
+      <p><small style="color:green;">Having any trouble? Feel free to contact me on <strong>ervinselimovic10@gmail.com</strong>!</small></p>
       @if ($okay === false)
       <h5>1. Enter your OLD password first to verify your account:</h5>
             <div class="form-group">

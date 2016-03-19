@@ -29,33 +29,6 @@
 
 
 @include('nav')
-
-<section>
-  <div class="container">
-    <div class="row">
-      <hr/>
-        <div class="col-sm-4">
-          <section class="text-center">
-              <br/>
-              <br/>
-              <img src="/assets/img/simboliclogo.png" class="img-circle" height="180" width="180" alt="ervinselimovic logo"/>
-              <h3>ervinselimovic.com</h3>
-              <p class="muted">Words of wisdom from code lover.</p>
-              <hr class="hr"/>
-              <ul class="ulnav">
-                  <li><a href="/">Welcome</a></li>
-                  <li><a href="/blog">Blog</a></li>
-                  <li><a href="/register">Register</a></li>
-                  <li><a href="/login">Login</a></li>
-              </ul>
-              <hr class="hr"/>
-                <div class="text-center socialmedia">
-                  <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank"><i class="fa fa-facebook"></i></a>
-                  <a href="https://github.com/ervinselimovic10" target="_blank"><i class="fa fa-github"></i></a>
-                </div>
-              <hr class="hr"/>
-          </section>
-        </div>
         
 @yield('content')
 

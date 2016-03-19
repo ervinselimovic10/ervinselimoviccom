@@ -1,7 +1,7 @@
-@extends('base') 
+@extends('blog-base') 
 
 @section('browsertitle')
-  ervinselimovic fwd | cookie use
+  Ervin Selimovic - Cookie Use
 @stop
 
 @section('content')

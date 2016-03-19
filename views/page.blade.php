@@ -1,4 +1,4 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
   {{ $browser_title }}
@@ -25,7 +25,7 @@
                     @include('error')
                     @include('success')
                     @if ($picture !== null)
-                    <img src="/assets/img/{{ $picture }}" class="img-responsive img-rounded" alt="picture"/>    
+                    <img src="/assets/img/{{ $picture }}" class="img-responsive img-rounded" alt="Ervin Selimovic {{ $title }}"/>    
                     <hr/> 
                     @endif
 

@@ -1,14 +1,14 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
-  ervinselimovic fwd | profile-delete-account
+  Ervin Selimovic - Delete Account
 @stop
 
 @section('content')
 <div class="container">
   <div class="row">
     <div class="col-sm-2">
-        <h3>Your Profile</h3>
+        <h3>My Profile</h3>
         <div class="avatar">
           <img src="/assets/img/avataricon.jpg" class="img-responsive img-thumbnail" alt="avatar"/>
         </div>
@@ -45,7 +45,7 @@
       <p>If there was anything that you didn't like or you have an idea of improving something, 
          really feel free to contact me! I'll be glad to hear from you, {{ $user_fn }}!
          Let's collaborate together!</p>
-      <p><small style="color:green;">Having any trouble? Feel free to <a href="/contact">contact me</a>!</small></p>
+      <p><small style="color:green;">Having any trouble? Feel free to contact me on <strong>ervinselimovic10@gmail.com</strong>!</small></p>
       <br/>
       <h5>Enter your current password, click the button and your account will be permanently deleted:</h5>
       <p><small>(You are free to come back any time!)</small></p>

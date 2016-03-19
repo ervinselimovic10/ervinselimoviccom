@@ -13,7 +13,6 @@
 
           <ul class="nav navbar-nav">
             <li {!! Onz\Controllers\PageController::myActiveClass('/') !!}><a href="/">Welcome</a></li>
-            <li {!! Onz\Controllers\PageController::myActiveClass('/about') !!}><a href="/about">About</a></li>
             <li {!! Onz\Controllers\PageController::myActiveClass('/blog') !!}><a href="/blog">Blog</a></li>
           </ul>
 
