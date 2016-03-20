@@ -12,9 +12,9 @@
                 <br/>
                 <h1 class="homemain">be the part of computer art</h1>
                 <h1 class="ervins">ervinselimovic</h1>
-                <p class="pull-left muted">Words of wisdom from code lover</p>
+                <p class="pull-left muted">Words of wisdom from code lover&nbsp;</p>
                 <hr/>
-                <p class="pull-right muted">ervinselimovi&copy</p>
+                <p class="pull-right muted">ervinselimovi&copy;</p>
                 <br/>
             </div>
 
