@@ -19,7 +19,7 @@ class CatController extends BaseController
       $title = $item->title;
     }
 
-    $pages = Page::where('cat_id', '=', $cat_id)->get();
+    $pages = Page::where('cat_id', '=', $cat_id)->orderBy('created_at', 'DESC')->get();
 
     echo $this->blade->render('category', [
         'b_title' => $b_title,
