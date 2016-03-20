@@ -7,6 +7,8 @@ CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here.
   config.extraPlugins = 'insertpre';
   CKEDITOR.config.insertpre_class = 'terminal';
+
+  config.fillEmptyBlocks = false;
   //CKEDITOR.config.insertpre_class = 'code';
 	// For complete reference see:
 	// http://docs.ckeditor.com/#!/api/CKEDITOR.config
