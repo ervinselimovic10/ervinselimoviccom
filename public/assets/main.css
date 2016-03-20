@@ -391,8 +391,12 @@ pre {
 .button:hover {
   border: 1px solid rgb(96, 217, 241) !important;
   /*background-color: #fff !important;*/
-  background-color: transparent;
+  background-color: transparent !important;
   color:rgb(96, 217, 241) !important;
+}
+
+.button {
+  background-color: transparent !important;
 }
 
 textarea:focus {
