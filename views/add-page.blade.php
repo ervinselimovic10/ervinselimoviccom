@@ -1,11 +1,15 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
   Ervin Selimovic - Add Page
 @stop
 
 @section('content')
-      <div class="col-md-1">
+<section>
+  <div class="container">
+    <div class="row">
+      <hr/>
+      <div class="col-md-3">
       </div>
 
       <div class="col-md-6">
@@ -59,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-md-1">
+      <div class="col-md-3">
       </div>
 
     </div>

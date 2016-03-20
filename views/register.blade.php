@@ -5,7 +5,7 @@
 @stop
 
 @section('content')
-        <div class="col-sm-1">
+        <div class="col-sm-3">
         </div>
 
         <div class="col-sm-6">
@@ -65,7 +65,7 @@
           </section>
         </div>
 
-        <div class="col-sm-1">
+        <div class="col-sm-3">
         </div>
     </div>
   </div>

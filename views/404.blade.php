@@ -6,17 +6,20 @@
 
 
 @section('content')
-        <div class="col-sm-8">
-          <section class="pages">
-            <canvas style="width:930px;height:500px;" id="myCanvas"></canvas>
+        <div class="col-sm-3">
         </div>
+
+        <div class="col-sm-6">
+          <section class="pages text-center">
+            <h1 class="homelead">It's okay! Everybody get's a little lost sometimes.</h1>
+            <h1 class="homemain">404 PAGE NOT FOUND</h1>
+          </section>
+        </div>
+
+        <div class="col-sm-3">
+        </div>
+
   </div>
 </div>
 </section>
-@stop
-
-@section('validatejs')
-    <script src="jquery/alphabet.js"></script>
-    <script src="jquery/bubbles.js"></script>
-    <script src="jquery/effect.js"></script>
 @stop

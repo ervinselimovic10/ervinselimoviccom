@@ -1,0 +1,529 @@
+/* Home */
+.ervins {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 48px;
+  text-align: center;
+}
+
+.whoami {
+  color: #fff;
+}
+
+.whoami h3 {
+  color:rgb(91, 217, 241);
+  font-weight:lighter;
+}
+/* -Home */
+
+label {
+  color: #fff;
+}
+
+.push-down {
+  margin-top: 20px;
+}
+
+#co {
+  color: #333;
+  padding: 10px;
+  height: auto;
+}
+
+.hco {
+  color: rgb(102, 102, 102);
+}
+
+/* Home Page */
+.empty-well {
+  background: transparent;
+}
+
+.bigger-icon {
+  font-size: 48px;
+}
+
+/* Footer */
+.padding-left {
+  padding-left: 15px;
+}
+
+html {
+  min-height: 100%;
+}
+body {
+  background: url('/assets/img/ervin.jpg');
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          background-repeat: no-repeat;
+          z-index: -1;
+          background-attachment: fixed;
+          font-family: Raleway;
+  /* Margin bottom by footer height */
+  margin-bottom: 120px;
+  font-family: Raleway, sans-serif;
+  background-color: #333;
+}
+
+@media (max-width:1120px) { 
+  body { 
+    overflow-x: auto; 
+    overflow-y: auto; 
+  } 
+}
+
+@media (min-width:1120px) { 
+  body { 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+  } 
+}
+
+body p {
+  font-weight: 500;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/* ADDING NEW */
+.homemain {
+  color: rgb(96, 217, 241);
+  font-weight: 400;
+  font-size: 52px;
+  text-align: center;
+}
+
+.homelead {
+  margin-top: -20px;
+  margin-left: 55px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 36px;
+}
+
+.muted {
+  color:rgb(102,102,102);
+}
+
+.hr {
+  width: 80px;
+  height: 1px;
+  border: none;
+  background-color: #333;
+  color: #333;
+}
+
+.ulnav {
+  list-style: none;
+  margin-left:-40px;
+}
+
+.ulnav a {
+  color: #333;
+  text-decoration: none !important;
+}
+
+.ulnav a:hover {
+  color: rgb(96, 217, 241);
+  text-decoration: none !important;
+}
+
+.socialmedia {
+  margin-top: 60px;
+}
+
+.socialmedia a {
+  color: #fff;
+  font-size: 32px;
+  padding-left: 14px;
+}
+
+.socialmedia a:hover {
+  color: rgb(91, 217, 241);
+}
+
+.php {
+  color: rgb(136, 146, 193);
+  text-decoration: none !important;
+}
+
+.php:active {
+  color: rgb(136, 146, 193);
+  text-decoration: none !important; 
+}
+
+.php:hover {
+  color: rgb(78, 90, 149) !important;
+  text-decoration: none !important;
+}
+
+.php:visited {
+  color: rgb(136, 146, 193);
+  text-decoration: none !important;
+}
+
+#hideshow {
+  display: none;
+  color: #fff;
+  font-size:12px;
+}
+
+#cookieuse {
+  display: none;
+  font-size: 12px;
+  color: #fff;
+}
+
+#closesitefor {
+  cursor:pointer;
+  color: rgb(255, 0, 0);
+}
+
+#closecookies {
+  cursor: pointer;
+  color: rgb(255, 0, 0);
+}
+
+.forgotpass {
+  text-decoration: none !important;
+  color: rgb(102,102,102);
+  margin-left: 10px;
+}
+
+.forgotpass:hover {
+  text-decoration: none !important;
+  color: rgb(102,102,102);
+}
+
+input[type="text"]:focus {
+  border: 1px solid rgb(96, 217, 241) !important;
+}
+
+input[type="email"]:focus {
+  border: 1px solid rgb(96, 217, 241) !important;
+}
+
+input[type="password"]:focus {
+  border: 1px solid rgb(96, 217, 241) !important;
+}
+
+.pages {
+  margin-top: 50px;
+}
+
+.activationlink {
+  color:rgb(85, 199, 255);
+}
+
+.footercookies {
+  text-decoration: none !important;
+  color:rgb(85, 199, 255);
+}
+
+.footercookies:hover {
+  text-decoration: none !important;
+  color: rgb(85, 199, 255);
+}
+/* ADDING NEW */
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  /* Fixed height */
+  height:70px;
+  padding: 2rem;
+  color: #333;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+
+/* Register Page JS Validation */
+.error {
+  color: rgb(96, 217, 241);
+  font-weight: lighter;
+}
+
+/* Admin */
+.admin-hidden {
+  display: none;
+}
+
+.admin-display {
+  display: inline-block;
+}
+
+.outlined {
+  border: 3px dotted #1BD3FF;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: 1px solid #333 !important;
+}
+
+.navbar a {
+  color: rgb(242, 242, 242) !important;
+}
+
+.navbar a:hover {
+  color: rgb(96, 217, 241) !important;
+}
+
+.dropdown-menu {
+  color: #fff !important;
+  background-color: #333 !important; 
+}
+
+.dropdown-menu a:hover {
+  background-color: #333 !important;
+  color: rgb(96, 217, 241) !important;
+}
+
+.dropdown-toggle:link {
+  background-color: #333 !important;
+}
+
+.dropdown-toggle:active {
+  background-color: #333 !important;
+}
+
+.dropdown-toggle:visited {
+  background-color: #333 !important;
+}
+
+.myactive {
+  background-color: rgb(111, 128, 145) !important;
+  border-radius: 10px !important;
+}
+
+.myactive a {
+  color: rgb(96, 217, 241) !important;  
+}
+
+/* Homepage categories */
+#bom {
+  top: 0;
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  background: #333;
+  /*border-radius: 10px;*/
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+#bom a:hover {
+  text-decoration: none !important;
+  color: #f8f8f2;
+}
+
+.page-header {
+  text-align: center !important;
+  color: #A5CCD2 !important;
+}
+
+.h3home {
+  color: rgb(96, 217, 241);
+}
+
+.well {
+  background-color: rgb(249, 249, 249);
+  border: 1px solid rgb(243, 243, 243); 
+  border-radius: 3px;
+}
+
+pre {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.code {
+  background-color: #333;
+  color:rgb(96, 217, 241);
+}
+
+.terminal {
+  background-color: #333;
+  color:rgb(0, 248, 0);
+}
+
+.nb {
+  color: #f8f8f2;
+}
+
+.comment {
+  color: rgb(111, 128, 145);
+}
+
+.function {
+  color: rgb(164, 228, 5);
+}
+
+.string {
+  color: rgb(230, 220, 109);
+}
+
+.imp {
+  color: rgb(252, 30, 114);
+}
+
+/**
+*   Latest 5
+**/
+.latest {
+  list-style: none;
+  
+}
+
+.mailer {
+  margin-top: -40px;
+}
+
+/* Profile avatar */
+.avatar {
+  width: 30%;
+}
+
+/* blog/post settings */
+.img {
+  width: 50px;
+  height: 50px;
+}
+
+.rpostimg {
+  height: 15px;
+  width: 15px;
+}
+
+.postimg {
+  height: 20px;
+  width: 30px;
+}
+
+/* Header blog */
+.hblog {
+  color:rgb(96, 217, 241);
+}
+
+/* Search Button */
+.button:hover {
+  border: 1px solid rgb(96, 217, 241) !important;
+  background-color: transparent !important;
+  color:rgb(96, 217, 241) !important;
+}
+
+.button {
+  border: 1px solid #fff !important;
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.button a {
+  text-decoration: none !important;
+  background-color: transparent !important;
+  color: #fff !important;  
+}
+
+.button a:hover {
+  text-decoration: none !important;
+  background-color: transparent !important;
+  color:rgb(96, 217, 241) !important;
+}
+
+textarea:focus {
+  border: 1px solid rgb(96, 217, 241) !important;
+}
+
+/* Add to well class */
+.w {
+  border: 1px solid #333 !important;
+}
+
+.ww {
+  border: 1px solid rgb(96, 217, 241) !important;
+}
+
+/* blog links */
+.links {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.links:hover {
+  color: rgb(96, 217, 241) !important;
+  text-decoration: none !important;
+}
+
+.ilinks {
+  color: #333 !important;
+}
+
+.ilinks:hover {
+  color: rgb(96, 217, 241) !important;
+  text-decoration: none !important;
+  border: 1px solid rgb(96, 217, 241) !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.ilinks:focus {
+  color: rgb(96, 217, 241) !important;
+  text-decoration: none !important;
+  border: 1px solid rgb(96, 217, 241) !important;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.goback {
+  color: #333 !important;
+  text-decoration: none !important;
+  border: 1px solid #333 !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.goback:hover {
+  color: rgb(96, 217, 241) !important;
+  text-decoration: none !important;
+  border: 1px solid rgb(96, 217, 241) !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Comment font */
+.commentfont {
+  font-family: sans-serif, Verdana;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+.jumbotron {
+  height: 400px;
+  margin-top: -10px;
+}
+
+.padding {
+  padding-left: 30px;
+}
+
+.white {
+  color: #fff;
+}
+

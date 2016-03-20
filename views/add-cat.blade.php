@@ -1,11 +1,15 @@
-@extends('base')
+@extends('blog-base')
 
 @section('browsertitle')
   Ervin Selimovic - Categories
 @stop
 
 @section('content')
-      <div class="col-md-2">
+<section>
+  <div class="container">
+    <div class="row">
+      <hr/>
+      <div class="col-md-4">
       </div>
 
       <div class="col-md-4">
@@ -46,7 +50,7 @@
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-md-4">
       </div>
 
     </div>
