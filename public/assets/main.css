@@ -31,15 +31,6 @@ html {
   min-height: 100%;
 }
 body {
-  background: url('/assets/img/ervin_bg.jpg');
-  -webkit-background-size: cover;
-     -moz-background-size: cover;
-       -o-background-size: cover;
-          background-size: cover;
-          background-repeat: no-repeat;
-          z-index: -1;
-          background-attachment: fixed;
-          font-family: Raleway;
   /* Margin bottom by footer height */
   margin-bottom: 120px;
   font-family: Raleway, sans-serif;
@@ -390,13 +381,8 @@ pre {
 /* Search Button */
 .button:hover {
   border: 1px solid rgb(96, 217, 241) !important;
-  /*background-color: #fff !important;*/
-  background-color: transparent !important;
+  background-color: #fff !important;
   color:rgb(96, 217, 241) !important;
-}
-
-.button {
-  background-color: transparent !important;
 }
 
 textarea:focus {
