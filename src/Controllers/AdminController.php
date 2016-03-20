@@ -29,7 +29,7 @@ class AdminController extends BaseController
   public function postAddPage()
   {
       if (isset($_FILES["file"]["name"])) {
-        $targetPath = __DIR__."/assets/img/";
+        $targetPath = "assets/img/";
         $targetPath = $targetPath.basename($_FILES["file"]["name"]);
         move_uploaded_file($_FILES["file"]["tmp_name"], $targetPath);
       }

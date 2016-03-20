@@ -18,11 +18,6 @@ class PageController extends BaseController
       echo $this->blade->render('home');
     }
 
-    public function getAbout()
-    {
-      echo $this->blade->render('about');
-    }
-
     public static function myActiveClass($path)
     {
       $uri = $_SERVER['REQUEST_URI'];
@@ -79,8 +74,10 @@ class PageController extends BaseController
         $value = strval($_POST['search']);
         htmlspecialchars($value);
 
-        if (Page::where('title', 'ILIKE', "%$value%")->exists()) {
-            $page = Page::where('title', 'ILIKE', "%$value%")->get();
+        //if (Page::where('title', 'ILIKE', "%$value%")->exists()) {
+            //$page = Page::where('title', 'ILIKE', "%$value%")->get();
+        if (Page::where('title', 'LIKE', '%'.$value.'%')->exists()) {
+            $page = Page::where('title', 'LIKE', '%'.$value.'%')->get();
 
             echo $this->blade->render('blog', [
               'signer' => $this->signer,
@@ -88,8 +85,10 @@ class PageController extends BaseController
               'pages' => $page
             ]);
             exit();
-        } elseif (Page::where('page_content', 'ILIKE', "%$value%")->exists()) {
-            $page = Page::where('page_content', 'ILIKE', "%$value%")->get();
+        //} elseif (Page::where('page_content', 'ILIKE', "%$value%")->exists()) {
+            //$page = Page::where('page_content', 'ILIKE', "%$value%")->get();
+        } elseif (Page::where('page_content', 'LIKE', '%'.$value.'%')->exists()) {
+            $page = Page::where('page_content', 'LIKE', '%'.$value.'%')->get();
 
             echo $this->blade->render('blog', [
               'signer' => $this->signer,
