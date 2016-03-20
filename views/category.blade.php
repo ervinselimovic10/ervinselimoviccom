@@ -41,9 +41,9 @@
 
       @if (isset($pages))
       @foreach ($pages as $page)
-      <h3><img src="/assets/img/{{ $page->picture }}" class="postimg" alt="onz {{ $page->title }}"/> {{ $page->title }} <a href="{{ $page->slug }}" class="links"><span class="glyphicon glyphicon-menu-down"></span></a></h3>
+      <h3><img src="/assets/img/{{ $page->picture }}" class="postimg" alt="onz {{ $page->title }}"/> {{ $page->title }} <a href="{{ $page->slug }}" class="links"><i class="fa fa-chevron-down"></i></a></h3>
         <p><small>by <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank">Ervin Selimovic</a></small></p>
-        <p><small><span class="glyphicon glyphicon-time"></span> Posted on {!! date("F j, Y, g:i a", strtotime($page->created_at)) !!}</small> <small class="pull-right">{{ Onz\Controllers\PageController::estimatedTime($page->page_content) }}</small></p>
+        <p><small><i class="fa fa-clock-o"></i> Posted on {!! date("F j, Y, g:i a", strtotime($page->created_at)) !!}</small> <small class="pull-right">{{ Onz\Controllers\PageController::estimatedTime($page->page_content) }}</small></p>
           <div class="well w">
             <p>{!! substr($page->page_content, 0, 150) !!}...</p>
             <p><a href="{{ $page->slug }}">Read more...</a></p>
