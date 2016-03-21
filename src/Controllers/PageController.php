@@ -130,7 +130,7 @@ class PageController extends BaseController
       $target = $uri[1];
 
       if (count($uri) > 2) {
-        echo "404 PAGE NOT FOUND";
+        echo "<h1 style='text-align:center;'>404 PAGE NOT FOUND</h1><hr/>";
         exit();
       }
       
