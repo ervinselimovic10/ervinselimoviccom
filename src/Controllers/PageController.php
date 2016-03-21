@@ -129,6 +129,11 @@ class PageController extends BaseController
       $uri = explode("/", $_SERVER['REQUEST_URI']);
       $target = $uri[1];
 
+      if (count($uri) > 2) {
+        echo "404 PAGE NOT FOUND";
+        exit();
+      }
+      
       // Find matching category or page in the DB
       $cat_exists = Cat::where('slug', '=', $target)->exists();
       $page_exists = Page::where('slug', '=', $target)->exists();
