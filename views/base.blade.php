@@ -43,7 +43,7 @@
   <script src="bs/js/bootstrap.min.js"></script>
 
   @if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 666))
-  <script src="admin/ckeditor/ckeditor.js"></script>
+  <script src="ckeditor/ckeditor.js"></script>
   <script src="jquery/jquery.form.min.js"></script>
   @endif
 
