@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+  @if (isset($title))
+    <meta property="og:title" content="{{ $title }} - Ervin Selimovic" />
+  @else
     <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
+  @endif
     <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web developer, Freelancer, PHP, VPS, Programming, Blog" />
     <meta name="author" content="Ervin Selimovic" />
 
@@ -15,7 +19,11 @@
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
   @endif
     <meta property="og:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
+  @if (isset($slug))
+    <meta property="og:url" content="https://ervinselimovic.com/{{ $slug }}" />
+  @else
     <meta property="og:url" content="https://ervinselimovic.com" />
+  @endif
 
   <title>@yield('browsertitle')</title>
 
