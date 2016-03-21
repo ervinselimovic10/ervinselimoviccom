@@ -30,7 +30,7 @@
                     @endif
 
                 @if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 666))
-                <form method="post" action="/admin/page/edit" id="editpage" name="editpage">
+                <form method="post" action="40c2CxwIB370zVGDGsV0905kAK6SWXas" id="editpage" name="editpage">
                     <article id="editablecontent" class="editablecontent" itemprop="description" style="width: 100%; line-height: 2em;">
                         <p>{!! nl2br($page_content) !!}</p>
                     </article>

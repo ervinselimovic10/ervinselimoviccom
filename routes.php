@@ -25,7 +25,7 @@ if (Onz\Auth\LoggedIn::user()) {
 }
 
 if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 666)) {
-  $router->map('POST', '/admin/page/edit', 'Onz\Controllers\AdminController@postSavePage', 'save_page');
+  $router->map('POST', '/40c2CxwIB370zVGDGsV0905kAK6SWXas', 'Onz\Controllers\AdminController@postSavePage', 'save_page');
   $router->map('GET', '/E4tHR2ItQGcka7MBHXxkCDO1oGM8JC8m', 'Onz\Controllers\AdminController@getAddPage', 'add_page');
   $router->map('POST', '/E4tHR2ItQGcka7MBHXxkCDO1oGM8JC8m', 'Onz\Controllers\AdminController@postAddPage', 'p_add_page');
   $router->map('GET', '/6qOdy7uoRhYAHG5ZuNPROvPTlvQ84069', 'Onz\Controllers\AdminController@getDeletePage', 'delete_page');

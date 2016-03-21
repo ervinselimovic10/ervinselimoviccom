@@ -181,7 +181,6 @@ class AdminController extends BaseController
 
   public function postUsers()
   {
-    //$user = User::where('email', '=', $email)->get();
     $delete = $_POST['delete'];
 
     foreach ($delete as $id) {
@@ -192,15 +191,6 @@ class AdminController extends BaseController
       User::where('id', '=', $id)->delete();
     }
 
-    // foreach ($user as $item) {
-    //   $user_id = $item->id;
-    // }
-
-    // if (Comment::where('user_id', '=', $user_id)->exists()) {
-    //   Comment::where('user_id', '=', $user_id)->delete();
-    // }
-
-    // User::where('email', '=', $email)->delete();
     $user_fn = LoggedIn::user()->first_name;
     $_SESSION['success'] = [$user_fn.", <strong>NOTE!</strong> User and his footprints were deleted permanently!"];
     header("Location: /x1dB59d3Sr60f8OxA8m0739KMfvey7EZ");
