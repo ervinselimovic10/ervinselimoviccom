@@ -1,4 +1,10 @@
 /* Home */
+.logo {
+  display: inline;
+  width: 16px;
+  height: 16px;
+}
+
 .ervins {
   color: #fff;
   font-weight: lighter;
