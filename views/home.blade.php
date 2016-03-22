@@ -14,7 +14,7 @@
                 <h1 class="ervins">ervinselimovic</h1>
                 <p class="pull-left muted">Words of wisdom from code lover&nbsp;</p>
                 <hr/>
-                <p class="pull-right muted"><img src="/assets/img/logo.png" class="img-responsive logo" height="16" width="16" alt="Ervin Selimovic logo"/> ervinselimovi&copy;</p>
+                <p class="pull-right muted"><img src="/assets/img/logo.png" class="img-responsive logo" alt="Ervin Selimovic logo"/> ervinselimovi&copy;</p>
                 <br/>
             </div>
 
