@@ -26,6 +26,7 @@
                   <li><a class="menu-item" href="#" onclick="makePageEditable(this)">Edit Page</a></li>
                   <li><a href="/E4tHR2ItQGcka7MBHXxkCDO1oGM8JC8m">Add Page</a></li>
                   <li><a href="/6qOdy7uoRhYAHG5ZuNPROvPTlvQ84069">Delete Page</a></li>
+                  <li><a href="/dUsJm6kP499O409X0BDTIT0SbB1UH2cc">Upload Image</a></li>
                   <li role="separator" class="divider"></li>
                   <li class="dropdown-header">Category settings</li>
                   <li role="separator" class="divider"></li>

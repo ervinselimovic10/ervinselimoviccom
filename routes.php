@@ -32,6 +32,8 @@ if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 6
   $router->map('POST', '/6qOdy7uoRhYAHG5ZuNPROvPTlvQ84069', 'Onz\Controllers\AdminController@postDeletePage', 'p_delete_page');
   $router->map('GET', '/Pt6u79I8GFnSvJl8bAS3mv0LcJEvrhae', 'Onz\Controllers\AdminController@getAddCat', 'add_cat');
   $router->map('POST', '/Pt6u79I8GFnSvJl8bAS3mv0LcJEvrhae', 'Onz\Controllers\AdminController@postAddCat', 'p_add_cat');
+  $router->map('GET', '/dUsJm6kP499O409X0BDTIT0SbB1UH2cc', 'Onz\Controllers\AdminController@getUploadImg', 'img_up');
+  $router->map('POST', '/dUsJm6kP499O409X0BDTIT0SbB1UH2cc', 'Onz\Controllers\AdminController@postUploadImg', 'p_img_up');
 
   $router->map('GET', '/x1dB59d3Sr60f8OxA8m0739KMfvey7EZ', 'Onz\Controllers\AdminController@getUsers', 'users');
   $router->map('POST', '/x1dB59d3Sr60f8OxA8m0739KMfvey7EZ', 'Onz\Controllers\AdminController@postUsers', 'p_users');

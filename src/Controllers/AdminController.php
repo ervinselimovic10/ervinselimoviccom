@@ -115,6 +115,32 @@ class AdminController extends BaseController
     echo "Saved!";
   }
 
+  public function getUploadImg()
+  {
+    $user_fn = LoggedIn::user()->first_name;
+
+    echo $this->blade->render('upload-img', [
+      'user_fn' => $user_fn
+      ]);
+  }
+
+  public function postUploadImg()
+  {
+    if (isset($_FILES["file"]["name"])) {
+      $targetPath = "assets/img/";
+      $targetPath = $targetPath.basename($_FILES["file"]["name"]);
+      move_uploaded_file($_FILES["file"]["tmp_name"], $targetPath);
+    } else {
+      $_SESSION['msg'] = ['Choose an image!'];
+      header("Location: /dUsJm6kP499O409X0BDTIT0SbB1UH2cc");
+      exit();
+    }
+
+    $_SESSION['success'] = ["Image uploaded successfully!"];
+    header("Location: /dUsJm6kP499O409X0BDTIT0SbB1UH2cc");
+    exit();    
+  }
+
   public function getAddCat()
   {
     $user_fn = LoggedIn::user()->first_name;
