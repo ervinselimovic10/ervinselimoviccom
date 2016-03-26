@@ -50,7 +50,7 @@
 
               <div class="form-group">
                 <label for="page_content">Topic content</label>
-                <textarea id="page_content" placeholder="PHP is now a strong OOP language....." name="page_content" class="form-control"></textarea>
+                <textarea id="page_content" placeholder="PHP is now a strong OOP language....." name="page_content" class="form-control ckeditor"></textarea>
               </div>
 
               <div class="form-group">
