@@ -309,9 +309,8 @@ pre {
 }
 
 .code {
-  background-color: #333;
-  /*background-color: rgb(24, 24, 24);*/
-  color:rgb(96, 217, 241);
+  background-color: #333 !important;
+  color: #fff !important;
 }
 
 .terminal {
