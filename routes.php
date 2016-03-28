@@ -2,7 +2,6 @@
 
 $router->map('GET', '/', 'Onz\Controllers\PageController@getHomePage', 'home'); 
 $router->map('GET', '/blog', 'Onz\Controllers\PageController@getBlog', 'blog');
-$router->map('POST', '/blog', 'Onz\Controllers\PageController@postSearch', 'search');
 $router->map('GET', '/vux0knNl2XPj4qei2az4D82mnWmu5ULp', 'Onz\Controllers\NewPassController@getNewPass', 'new_pass');
 $router->map('POST', '/vux0knNl2XPj4qei2az4D82mnWmu5ULp', 'Onz\Controllers\NewPassController@postNewPass', 'p_new_pass');
 $router->map('GET', '/cookies', 'Onz\Controllers\PageController@getCookies', 'cookies');

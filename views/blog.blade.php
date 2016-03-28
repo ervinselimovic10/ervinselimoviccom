@@ -11,11 +11,10 @@
     <div class="fix">
       <h3 class="hblog">Search</h3>
         <p class="lead">Search for posts</p>
-        <form action="/blog" method="post">
-          <input type="hidden" name="_token" value="{!! htmlspecialchars($signer->getSignature()) !!}"/>
+        <form action="/blog" method="get">
           <input type="text" name="search" class="form-control"/>
-        <br/>
-        <button type="submit" class="btn btn-default button" name="submit">Search</button>
+          <br/>
+          <button type="submit" class="btn btn-default button">Search</button>
         </form>
       <hr/>
 

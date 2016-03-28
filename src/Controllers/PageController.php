@@ -36,48 +36,12 @@ class PageController extends BaseController
 
     public function getBlog()
     {
-      echo $this->blade->render('blog', [
-          'signer' => $this->signer,
-          'cats' => Cat::all(),
-          'pages' => Page::orderBy('created_at', 'DESC')->get()
-        ]);
-    }
-
-    public function postSearch()
-    {
-      // CSRF Check
-      if (!$this->signer->validateSignature($_POST['_token'])) {
-        header("HTTP/1.0 400 Bad Request");
-        exit();
-      }
-
-      // Validate
-      $errors = [];
-
-      $validation_data = [
-        'search' => 'min:1'
-      ];
-
-      // Validate Data
-      $validator = new Validator;
-      $errors = $validator->isValid($validation_data);
-
-      // If validation fails -> back to slug of page
-      // Display error messages
-      if ((sizeof($errors) > 0) || (!empty($errors))) {
-        $_SESSION['msg'] = $errors;
-        header('Location: /blog');
-        exit();
-      }
-
-      if (isset($_POST['search'])) {
-        $value = strval($_POST['search']);
+      if ((isset($_GET['search'])) && !(empty($_GET['search']))) {
+        $value = strval($_GET['search']);
         htmlspecialchars($value);
 
-        //if (Page::where('title', 'ILIKE', "%$value%")->exists()) {
-            //$page = Page::where('title', 'ILIKE', "%$value%")->get();
-        if (Page::where('title', 'LIKE', '%'.$value.'%')->exists()) {
-            $page = Page::where('title', 'LIKE', '%'.$value.'%')->get();
+        if (Page::where('title', 'ILIKE', "%$value%")->exists()) {
+            $page = Page::where('title', 'ILIKE', "%$value%")->get();
 
             echo $this->blade->render('blog', [
               'signer' => $this->signer,
@@ -85,10 +49,8 @@ class PageController extends BaseController
               'pages' => $page
             ]);
             exit();
-        //} elseif (Page::where('page_content', 'ILIKE', "%$value%")->exists()) {
-            //$page = Page::where('page_content', 'ILIKE', "%$value%")->get();
-        } elseif (Page::where('page_content', 'LIKE', '%'.$value.'%')->exists()) {
-            $page = Page::where('page_content', 'LIKE', '%'.$value.'%')->get();
+        } elseif (Page::where('page_content', 'ILIKE', "%$value%")->exists()) {
+            $page = Page::where('page_content', 'ILIKE', "%$value%")->get();
 
             echo $this->blade->render('blog', [
               'signer' => $this->signer,
@@ -101,11 +63,13 @@ class PageController extends BaseController
           header("Location: /blog");
           exit();
         }
-      } else {
-        $_SESSION['msg'] = ["Something went wrong..."];
-        header("Location: /blog");
-        exit();
-      }
+      }  
+
+      echo $this->blade->render('blog', [
+          'signer' => $this->signer,
+          'cats' => Cat::all(),
+          'pages' => Page::orderBy('created_at', 'DESC')->get()
+        ]);
     }
 
     public static function estimatedTime($post_content) 
