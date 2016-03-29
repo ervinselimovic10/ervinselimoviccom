@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
@@ -22,8 +22,13 @@
   @else
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
   @endif
+  @if (isset($page_content))
+    <meta name="description" content="Ervin Selimovic, web developer blogging about {{ $title }}. Jump in and check other topics too!" />
+    <meta property="og:description" content="Ervin Selimovic, web developer blogging about {{ $title }}. Jump in and check other topics too!" />
+  @else
     <meta name="description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
     <meta property="og:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
+  @endif
   @if (isset($slug))
     <meta property="og:url" content="https://ervinselimovic.com/{{ $slug }}" />
   @else
