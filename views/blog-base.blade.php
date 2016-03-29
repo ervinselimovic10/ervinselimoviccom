@@ -14,15 +14,15 @@
   @if (isset($tags))
     <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web, Web developer, Blog, {{ $tags }}" />
   @else
-    <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web, Web developer, Freelance, Freelancer, PHP, VPS, Programming, Blog" />
+    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic web, Ervin, Selimovic, ervinselimovic, Web, Web developer, Freelance, Freelancer, PHP, VPS, Programming, Blog" />
   @endif
     <meta name="author" content="Ervin Selimovic" />
-
   @if ((isset($picture)) && ($picture !== null))
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
   @else
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
   @endif
+    <meta name="description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
     <meta property="og:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
   @if (isset($slug))
     <meta property="og:url" content="https://ervinselimovic.com/{{ $slug }}" />
