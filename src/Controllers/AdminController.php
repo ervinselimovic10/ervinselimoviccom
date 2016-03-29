@@ -48,6 +48,7 @@ class AdminController extends BaseController
         exit();
       }
       $page->cat_id = $_POST['cat'];
+      $page->tags = $_POST['tags'];
       $page->save();
 
       // Send mail to all users 

@@ -10,7 +10,12 @@
   @else
     <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
   @endif
-    <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web developer, Freelancer, PHP, VPS, Programming, Blog" />
+
+  @if (isset($tags))
+    <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web, Web developer, Blog, {{ $tags }}" />
+  @else
+    <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web, Web developer, Freelance, Freelancer, PHP, VPS, Programming, Blog" />
+  @endif
     <meta name="author" content="Ervin Selimovic" />
 
   @if ((isset($picture)) && ($picture !== null))

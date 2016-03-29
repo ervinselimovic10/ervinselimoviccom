@@ -125,6 +125,7 @@ class PageController extends BaseController
                 $picture = null;
               }
               $slug = $item->slug;
+              $tags = $item->tags;
               $date = $this->formatDate($item->created_at);
             }
       } else {
@@ -159,6 +160,7 @@ class PageController extends BaseController
           'date' => $date,
           'comments' => $comments,
           'user' => $user,
+          'tags' => $tags,
           'estimated_time' => $estimated_time
         ]);
     }
