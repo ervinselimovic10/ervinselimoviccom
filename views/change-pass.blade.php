@@ -1,7 +1,7 @@
 @extends('blog-base')
 
 @section('browsertitle')
-  Ervin Selimovic - Change Password
+Ervin Selimovic - Change Password
 @stop
 
 @section('content')

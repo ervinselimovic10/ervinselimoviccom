@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  Ervin Selimovic - Register
+Ervin Selimovic - Register
 @stop
 
 @section('content')

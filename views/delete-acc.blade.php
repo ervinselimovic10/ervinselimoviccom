@@ -1,7 +1,7 @@
 @extends('blog-base')
 
 @section('browsertitle')
-  Ervin Selimovic - Delete Account
+Ervin Selimovic - Delete Account
 @stop
 
 @section('content')

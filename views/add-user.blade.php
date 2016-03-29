@@ -1,7 +1,7 @@
 @extends('blog-base')
 
 @section('browsertitle')
-  Ervin Selimovic - Users
+Ervin Selimovic - Users
 @stop
 
 @section('content')

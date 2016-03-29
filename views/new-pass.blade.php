@@ -1,7 +1,7 @@
 @extends('base')
 
 @section('browsertitle')
-  Ervin Selimovic - New Password
+Ervin Selimovic - New Password
 @stop
 
 @section('content')

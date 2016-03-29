@@ -1,7 +1,7 @@
 @extends('blog-base')
 
 @section('browsertitle')
-  Ervin Selimovic - Upload Img
+Ervin Selimovic - Upload Img
 @stop
 
 @section('content')

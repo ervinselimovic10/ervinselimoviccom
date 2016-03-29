@@ -1,7 +1,7 @@
 @extends('blog-base')
 
 @section('browsertitle')
-  {{ $browser_title }}
+{{ $browser_title }}
 @stop
 
 @section('content')

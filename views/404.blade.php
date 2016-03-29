@@ -1,7 +1,7 @@
 @extends('base') 
 
 @section('browsertitle')
-  Ervin Selimovic - Page Not Found
+Ervin Selimovic - Page Not Found
 @stop
 
 

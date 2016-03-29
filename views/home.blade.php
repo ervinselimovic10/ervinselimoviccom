@@ -1,7 +1,7 @@
 @extends('base') 
 
 @section('browsertitle')
-  Ervin Selimovic - Words of wisdom from code lover
+Ervin Selimovic - Words of wisdom from code lover
 @stop
 
 

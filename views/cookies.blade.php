@@ -1,7 +1,7 @@
 @extends('blog-base') 
 
 @section('browsertitle')
-  Ervin Selimovic - Cookie Use
+Ervin Selimovic - Cookie Use
 @stop
 
 @section('content')
