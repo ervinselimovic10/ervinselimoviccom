@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://ervinselimovic.com/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/blog</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/register</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/login</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/cookies</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/ervinselimovic-fwd-modern-php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/virtual-private-server-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/seo-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/seo-google-and-altavista-in-late-90-s-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-psr-4-and-routing-with-altorouter-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-running-migrations-with-phinx-straightforward-example-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-an-easy-way-to-format-your-code-psr-2-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-cross-site-request-forgery-protection-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/vps-setting-up-swap-space-ubuntu-14-04-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/vps-public-private-keys-and-locking-down-ssh-mac-ubuntu-14-04-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/vps-nginx-http-https-redirect-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-manage-sensitive-credentials-with-env-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/vps-virtual-hosts-in-nginx-with-ubuntu-14-04-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/phpunit-types-of-tests-for-your-web-application-ervinselimovic-fwd</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ervinselimovic.com/php-web-developer-s-best-resources-and-project-tools-ervinselimovic-fwd</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
