@@ -105,4 +105,9 @@
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://ervinselimovic.com/vps-create-a-non-root-user-with-root-privileges-ubuntu-14-04-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
