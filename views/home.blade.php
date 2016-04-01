@@ -28,7 +28,7 @@ Ervin Selimovic - Words of wisdom from code lover
                           while working on different projects.</p>
                           <p>So I built something simple with love, that I’ll upgrade constantly, so as the site feautures for better user experience, 
                           so as posting the fresh sharp-tounged learning content. Feel free to go on and visit my <strong>blog</strong>!</p>
-                          <p>Sorry, I blocked SMPT entry on my server, but you can find me on socialmedia buttons, or contact me on <strong>ervinselimovic10@gmail.com</strong></p>
+                          <p>Sorry, I blocked email entry on my server, but you can find me on socialmedia buttons, or contact me on <strong>ervinselimovic10@gmail.com</strong></p>
                       </div>
                   </div>
 
