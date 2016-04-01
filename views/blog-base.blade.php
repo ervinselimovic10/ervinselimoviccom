@@ -12,9 +12,9 @@
   @endif
 
   @if (isset($tags))
-    <meta name="keywords" content="Ervin Selimovic, Ervin, Selimovic, Web, Web developer, Blog, {{ $tags }}" />
+    <meta name="keywords" content="Ervin Selimovic blog, {{ $tags }}" />
   @else
-    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic web, Ervin, Selimovic, ervinselimovic, Web, Web developer, Freelance, Freelancer, PHP, VPS, Programming, Blog" />
+    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web, Ervin Selimovic web developer, Ervin Selimovic php, Ervin, Selimovic" />
   @endif
     <meta name="author" content="Ervin Selimovic" />
   @if ((isset($picture)) && ($picture !== null))

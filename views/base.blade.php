@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
-    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic web, Ervin, Selimovic, ervinselimovic, Web, Web developer, Freelance, Freelancer, PHP, VPS, Programming, Blog" />
+    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web, Ervin Selimovic web developer, Ervin Selimovic php, Ervin, Selimovic" />
     <meta name="author" content="Ervin Selimovic" />
   @if ((isset($picture)) && ($picture !== null))
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
