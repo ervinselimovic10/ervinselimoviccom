@@ -110,4 +110,9 @@
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://ervinselimovic.com/vps-regular-server-maintenance-ubuntu-14-04-ervin-selimovic</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
