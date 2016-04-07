@@ -16,7 +16,6 @@ Ervin Selimovic - New Password
             <p class="lead white">Type in your email. 
               Message will be sent on your provided address with newly generated secure password.
               But no matter what, change it as soon as you do the next log in!</p>
-            <p><small class="activationlink">Please, check your spam folder, after you recieve new password on your email account.</small></p>
             <hr/>
             @include('error')
               

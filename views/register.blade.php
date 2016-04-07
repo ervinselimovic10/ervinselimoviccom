@@ -13,7 +13,7 @@ Ervin Selimovic - Register
           <br/>
           <section class="pages">
             <h1 class="homelead">Register</h1>
-            <p><small class="activationlink">Please, check your spam folder, after you recieve activation link on your email account.</small></p>
+            <p><small class="activationlink">You will recieve an activation link on email you provide.</small></p>
             <hr/>
             @include('error')
             <form name="registerform" class="form-horizontal" id="registerform" action="/register" method="post" novalidate>
