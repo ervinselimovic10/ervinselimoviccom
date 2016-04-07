@@ -10,6 +10,8 @@ because of your own security!</p>
   <hr/>
     <ul style="list-style:none;">
       <li>Visit <a href="{!! getenv('HOST') !!}">ervinselimovic.com</a></li>
-      <li>Find me on <a href="https://www.facebook.com/profile.php?id=100008502765306">facebook</a></li>
+      <li>Find me on <a href="https://twitter.com/onesnzeros10">twitter</a></li>
     </ul>
+
+  <br/><strong>Do not reply.</strong>
 </div>
