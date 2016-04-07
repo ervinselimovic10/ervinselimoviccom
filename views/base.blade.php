@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@onesnzeros10" />
+    <meta name="twitter:title" content="Ervin Selimovic - Words of wisdom from code lover" />
+    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
+    <meta name="twitter:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
     <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
     <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web, Ervin Selimovic web developer, Ervin Selimovic php, Ervin, Selimovic" />
     <meta name="author" content="Ervin Selimovic" />

@@ -4,11 +4,15 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+ 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@onesnzeros10" />
   @if (isset($title))
     <meta property="og:title" content="{{ $title }} - Ervin Selimovic" />
+    <meta name="twitter:title" content="{{ $title }}" />
   @else
     <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
+    <meta name="twitter:title" content="Ervin Selimovic - Words of wisdom from code lover" />
   @endif
 
   @if (isset($tags))
@@ -18,14 +22,18 @@
   @endif
     <meta name="author" content="Ervin Selimovic" />
   @if ((isset($picture)) && ($picture !== null))
+    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
   @else
+    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
   @endif
   @if (isset($page_content))
+    <meta name="twitter:description" content="Ervin Selimovic, web developer blogging about {{ $title }}. Jump in and check other topics too!" />
     <meta name="description" content="Ervin Selimovic, web developer blogging about {{ $title }}. Jump in and check other topics too!" />
     <meta property="og:description" content="Ervin Selimovic, web developer blogging about {{ $title }}. Jump in and check other topics too!" />
   @else
+    <meta name="twitter:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
     <meta name="description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
     <meta property="og:description" content="Ervin Selimovic, freelance web developer blogging about Php project based topics. Just code it!" />
   @endif
