@@ -69,7 +69,7 @@ Ervin Selimovic - Blog
         <h4>Ervin Selimovic</h4>
         <p>Just a code lover.</p>
           <small>Freelance web developer, blogging to not forget. </small><br/>
-          <small>Suggestions or questions at <strong>ervinselimovic10@gmail.com</strong></small><br/>
+          <small>Suggestions or questions <strong>ervinselimovic10@gmail.com</strong></small><br/>
           <small>Further read at <strong><a href="http://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
 
           <div class="text-center socialmedia">
