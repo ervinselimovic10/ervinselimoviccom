@@ -59,7 +59,7 @@
       <hr/>
       <div class="myprofile img-thumbnail">
         
-          <img src="assets/img/eeprofile.png" class="img-responsive img-circle eprofile "/>
+          <img src="assets/img/eeprofile.png" class="img-responsive img-circle eprofile" alt="Ervin Selimovic profile img"/>
         <h4>Ervin Selimovic</h4>
         <p>Just a code lover.</p>
           <small>Freelance web developer, blogging to not forget. </small><br/>
