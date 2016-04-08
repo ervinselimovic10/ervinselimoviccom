@@ -66,7 +66,6 @@ Ervin Selimovic - Words of wisdom from code lover
                 <div class="col-sm-2">
                       <div class="text-center socialmedia">
                           <a href="https://twitter.com/onesnzeros10" target="_blank"><i class="fa fa-twitter"></i></a>
-                          <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank"><i class="fa fa-facebook"></i></a>
                           <a href="https://github.com/ervinselimovic10" target="_blank"><i class="fa fa-github"></i></a>
                       </div>
                 </div>

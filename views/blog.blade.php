@@ -49,9 +49,9 @@ Ervin Selimovic - Blog
 
       @foreach ($pages as $page)
       <h3><img src="/assets/img/{{ $page->picture }}" class="postimg" alt="Ervin Selimovic {{ $page->title }}"/> {{ $page->title }} <a href="{{ $page->slug }}" class="links"><i class="fa fa-chevron-down"></i></a></h3>
-        <p><small>by <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank">Ervin Selimovic</a></small> <small> - timezone Europe/Ljubljana</small></p>
+        <p><small>by <a href="https://twitter.com/onesnzeros10" target="_blank">Ervin Selimovic</a></small> <small> - timezone Europe/Ljubljana</small></p>
         <p><small><i class="fa fa-clock-o"></i> Posted on {!! date("F j, Y, g:i a", strtotime($page->created_at)) !!}</small> <small class="pull-right">{{ Onz\Controllers\PageController::estimatedTime($page->page_content) }}</small></p>
-          <div class="well w">
+          <div class="well blogcontent">
             <p>{!! substr($page->page_content, 0, 150) !!}...</p>
             <p><a href="{{ $page->slug }}">Read more...</a></p>
           </div>
@@ -63,15 +63,30 @@ Ervin Selimovic - Blog
 
     <div class="col-sm-4">
       <hr/>
+      <div class="myprofile img-thumbnail">
+        
+          <img src="assets/img/eeprofile.png" class="img-responsive img-circle eprofile "/>
+        <h4>Ervin Selimovic</h4>
+        <p>Just a code lover.</p>
+          <small>Freelance web developer, blogging to not forget. </small><br/>
+          <small>Suggestions or questions at <strong>ervinselimovic10@gmail.com</strong></small><br/>
+          <small>Further read at <strong><a href="http://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
+
+          <div class="text-center socialmedia">
+             <a href="https://twitter.com/onesnzeros10" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://github.com/ervinselimovic10" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+      </div>
+      <hr/>
       <p>Code guides presented in posts:</p>
       <pre class="code">
 <span class="imp">namespace </span><span class="nb">Onz\Onz;</span>
 
-class <span class="nb">Onz {</span>
-  <span class="imp">private</span> function <span class="function">onesNzeros()</span>
+<span class="prefunc">class</span> <span class="nb">Onz {</span>
+  <span class="imp">private</span> <span class="prefunc">function</span> <span class="function">onesNzeros()</span>
   <span class="nb">{</span>
     <span class="comment">// outputs onesnzeros</span>
-    echo <span class="string">"onesnzeros"</span><span class="nb">;</span>
+    <span class="prefunc">echo</span> <span class="string">"onesnzeros"</span><span class="nb">;</span>
   <span class="nb">}
 }</span>
       </pre>

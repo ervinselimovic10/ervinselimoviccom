@@ -57,6 +57,21 @@
 
     <div class="col-sm-4">
       <hr/>
+      <div class="myprofile img-thumbnail">
+        
+          <img src="assets/img/eeprofile.png" class="img-responsive img-circle eprofile "/>
+        <h4>Ervin Selimovic</h4>
+        <p>Just a code lover.</p>
+          <small>Freelance web developer, blogging to not forget. </small><br/>
+          <small>Suggestions or questions at <strong>ervinselimovic10@gmail.com</strong></small><br/>
+          <small>Further read at <strong><a href="http://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
+
+          <div class="text-center socialmedia">
+             <a href="https://twitter.com/onesnzeros10" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://github.com/ervinselimovic10" target="_blank"><i class="fa fa-github"></i></a>
+          </div>
+      </div>
+      <hr/>
       <p>Code guides presented in posts:</p>
       <pre class="code">
 <span class="imp">namespace </span><span class="nb">Onz\Onz;</span>

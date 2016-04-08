@@ -18,7 +18,7 @@
                     <!-- Blog post -->
                     <h1 class="hblog">{{ $title }}</h1>
                     <p class="lead">
-                        <small>by <a href="https://www.facebook.com/profile.php?id=100008502765306" target="_blank">ervin selimovic</a></small>
+                        <small>by <a href="https://twitter.com/onesnzeros10" target="_blank">ervin selimovic</a></small>
                     </p>
                     <p><small><i class="fa fa-clock-o"></i> Posted on {!! $date !!}</small>    <small class="pull-right"> {{ $estimated_time }} to read</small></p>
                     <hr/>
