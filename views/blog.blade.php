@@ -70,7 +70,7 @@ Ervin Selimovic - Blog
         <p>Just a code lover.</p>
           <small>Freelance web developer, blogging to not forget. </small><br/>
           <small>Suggestions or questions <strong>ervinselimovic10@gmail.com</strong></small><br/>
-          <small>Further read at <strong><a href="http://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
+          <small>Further read at <strong><a href="https://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
 
           <div class="text-center socialmedia">
              <a href="https://twitter.com/onesnzeros10" target="_blank"><i class="fa fa-twitter"></i></a>
