@@ -38,8 +38,6 @@ Ervin Selimovic - Words of wisdom from code lover
                       <br/>
                       <button class="btn btn-default button center-block"><a href="/blog">Visit Blog</a></button>
                       <br/>
-                      <button class="btn btn-default button center-block" id="sitefor">Who is this site for?</button>
-                      <br/>
                       <button class="btn btn-default button center-block" id="cookieshow">Site terms</button>
 
                         <div id="cookieuse">
@@ -47,12 +45,6 @@ Ervin Selimovic - Words of wisdom from code lover
                         <p>To bring you my blogging system, I use cookies, for greater user experience, like every other dynamic web site. 
                         Cookies help personalize your content, and provide you with a better, faster, safer experience. By using my site, 
                         you agree to my <strong><a href="/cookies" class="php">cookie use</a></strong>.</p><br/>
-                        </div>
-
-                        <div id="hideshow">
-                          <p id="closesitefor" class="text-center"><i class="fa fa-times"></i> close</p>
-                          <p>This site is for junior web developers who are trying to reach the next level on their journey,
-                          It's assumed you already have basic programming background with <strong><a href="http://php.net/" target="_blank" class="php">php</a></strong>.</p><br/>
                         </div>
                   </div>
                 </div>
@@ -82,16 +74,6 @@ Ervin Selimovic - Words of wisdom from code lover
 @section('validatejs')
 <script>
   $(function(){
-    // Who is this site for
-    $('#sitefor').on('click', function(){
-      $('#sitefor, #cookieshow').hide();
-      $('#hideshow').show();
-    });
-
-    $('#closesitefor').on('click', function(){
-      $('#hideshow').hide();
-      $('#sitefor, #cookieshow').show();
-    });
     // Site terms
     $('#cookieshow').on('click', function(){
       $('#cookieshow, #sitefor').hide();

@@ -67,7 +67,7 @@ body {
   background-color: #333;
 }
 
-@media (max-width:1120px) { 
+/*@media (max-width:1120px) { 
   body { 
     overflow-x: auto; 
     overflow-y: auto; 
@@ -79,7 +79,7 @@ body {
     overflow-x: hidden; 
     overflow-y: hidden; 
   } 
-}
+}*/
 
 body p {
   font-weight: 500;
