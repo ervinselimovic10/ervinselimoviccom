@@ -68,7 +68,7 @@ Ervin Selimovic - Blog
           <img src="assets/img/eeprofile.png" class="img-responsive img-circle eprofile" alt="Ervin Selimovic profile img"/>
         <h4>Ervin Selimovic</h4>
         <p>Just a code lover.</p>
-          <small>Freelance web developer, blogging to not forget. </small><br/>
+          <small>JS/PHP based Web developer, blogging to not forget. </small><br/>
           <small>Suggestions or questions <strong>ervinselimovic10@gmail.com</strong></small><br/>
           <small>Further read at <strong><a href="https://ervinselimovic.tech">ervinselimovic.tech</a></strong></small>
 
