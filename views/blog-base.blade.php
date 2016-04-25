@@ -20,7 +20,7 @@
   @if (isset($tags))
     <meta name="keywords" content="Ervin Selimovic blog, {{ $tags }}" />
   @else
-    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web, Ervin Selimovic web developer, Ervin Selimovic php, Ervin, Selimovic" />
+    <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web developer" />
   @endif
     <meta name="author" content="Ervin Selimovic" />
   @if ((isset($picture)) && ($picture !== null))
@@ -31,13 +31,13 @@
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
   @endif
   @if (isset($page_content))
-    <meta name="twitter:description" content="{{ $title }}. Blogging just to not forget :P Jump in and check other topics too!" />
-    <meta name="description" content="{{ $title }}. Blogging just to not forget :P Jump in and check other topics too!" />
-    <meta property="og:description" content="{{ $title }}. Blogging just to not forget :P Jump in and check other topics too!" />
+    <meta name="twitter:description" content="{{ $title }}. Jump in and check other topics too!" />
+    <meta name="description" content="{{ $title }}. Jump in and check other topics too!" />
+    <meta property="og:description" content="{{ $title }}. Jump in and check other topics too!" />
   @else
-    <meta name="twitter:description" content="Ervin Selimovic, freelance web developer or simply just code lover, blogging to not forget..." />
-    <meta name="description" content="Ervin Selimovic, freelance web developer or simply just code lover, blogging to not forget..." />
-    <meta property="og:description" content="Ervin Selimovic, freelance web developer or simply just code lover, blogging to not forget..." />
+    <meta name="twitter:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
+    <meta name="description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
+    <meta property="og:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
   @endif
   @if (isset($slug))
     <meta property="og:url" content="https://ervinselimovic.com/{{ $slug }}" />
