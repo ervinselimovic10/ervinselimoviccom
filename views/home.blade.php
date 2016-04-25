@@ -23,12 +23,13 @@ Ervin Selimovic - Words of wisdom from code lover
                     <div class="col-sm-6">
                       <div class="whoami">
                         <h3>whoami</h3>
-                          <p>My name is <strong>Ervin Selimovic</strong> and I am a freelance web developer, mostly focused on server side with <a href="http://php.net/" target="_blank" class="php"><strong>php</strong></a>.
+                          <p>My name is <strong>Ervin Selimovic</strong> and I am a Web developer, mostly focused on server side with <a href="http://php.net/" target="_blank" class="php"><strong>php</strong></a>.
                           Simply said, I just love to code and share solved programming constraints I’m dealing with every day, 
                           while working on different projects.</p>
                           <p>So I built something simple with love, that I’ll upgrade constantly, so as the site feautures for better user experience, 
-                          so as posting the fresh sharp-tounged learning content. Feel free to go on and visit my <strong>blog</strong>!</p>
-                          <p>Sorry, I blocked email entry on my server, but you can find me on socialmedia buttons, or contact me on <strong>ervinselimovic10@gmail.com</strong></p>
+                          so as posting the fresh sharp-tounged learning content. Feel free to go on and visit my <a href="/blog" class="php">blog</a>!</p>
+                          <p>Sorry, I blocked email entry on my server, but you can find me on socialmedia buttons, or contact me on <a href="mailto:ervinselimovic10@gmail.com" class="php">ervinselimovic10@gmail.com</a><br/>
+                          Further read at <a href="https://ervinselimovic.tech" target="_blank" class="php"></a></p>
                       </div>
                   </div>
 
