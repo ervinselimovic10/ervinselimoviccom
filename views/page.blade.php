@@ -18,7 +18,7 @@
                     <!-- Blog post -->
                     <h1 class="hblog">{{ $title }}</h1>
                     <p class="lead">
-                        <small>by <a href="https://ervinselimovic.tech" target="_blank">ervin selimovic</a></small>
+                        <small>by <a href="https://ervinselimovic.tech" target="_blank">ervin selimovic</a></small> 
                     </p>
                     <p><small><i class="fa fa-clock-o"></i> Posted on {!! $date !!}</small>    <small class="pull-right"> {{ $estimated_time }} to read</small></p>
                     <hr/>
@@ -57,6 +57,8 @@
                 <section id="comments">
                 </section>
                 <hr/>
+                <!-- Follow-->
+                <a href="https://twitter.com/onesnzeros10" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @onesnzeros10</a>
                 <!-- Tweet -->
                 <a href="https://twitter.com/share" class="twitter-share-button" data-via="onesnzeros10" data-size="large" data-hashtags="webdevelopment">Tweet</a>
 
@@ -133,5 +135,7 @@
 @stop
 
 @section('validatejs')
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 @stop
