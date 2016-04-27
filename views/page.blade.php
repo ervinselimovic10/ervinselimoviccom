@@ -57,6 +57,8 @@
                 <section id="comments">
                 </section>
                 <hr/>
+                <!-- Tweet -->
+                <a href="https://twitter.com/share" class="twitter-share-button" data-via="onesnzeros10" data-size="large" data-hashtags="webdevelopment">Tweet</a>
 
                 <div>
                     <h3><i class="fa fa-comments-o"></i> Comment section <small>/ currently @if (empty($comments)) {{ 0 }} @else {{ count($comments) }} @endif comment/s</small></h3>
@@ -128,4 +130,8 @@
 <!-- Admin JS -->
 @include('admin.admin-js')
 
+@stop
+
+@section('validatejs')
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 @stop
