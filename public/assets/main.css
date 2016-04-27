@@ -92,6 +92,10 @@ body > .container {
   margin: 0 auto;
 }
 
+.postadd a {
+  cursor: pointer;
+}
+
 /* ADDING NEW */
 .homemain {
   color: rgb(96, 217, 241);
