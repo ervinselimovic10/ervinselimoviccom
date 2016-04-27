@@ -56,7 +56,7 @@ Ervin Selimovic - Blog
 
       @foreach ($pages as $page)
       <h3><img src="/assets/img/{{ $page->picture }}" class="postimg" alt="Ervin Selimovic {{ $page->title }}"/> {{ $page->title }} <a href="{{ $page->slug }}" class="links"><i class="fa fa-chevron-down"></i></a></h3>
-        <p><small>by <a href="https://twitter.com/onesnzeros10" target="_blank">Ervin Selimovic</a></small> <small> - timezone Europe/Ljubljana</small></p>
+        <p><small>by <a href="https://ervinselimovic.tech/" target="_blank">Ervin Selimovic</a></small> <small> - timezone Europe/Ljubljana</small></p>
         <p><small><i class="fa fa-clock-o"></i> Posted on {!! date("F j, Y, g:i a", strtotime($page->created_at)) !!}</small> <small class="pull-right">{{ Onz\Controllers\PageController::estimatedTime($page->page_content) }}</small></p>
           <div class="well blogcontent">
             <p>{!! substr($page->page_content, 0, 150) !!}...</p>
