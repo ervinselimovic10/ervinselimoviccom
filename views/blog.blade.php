@@ -37,8 +37,11 @@ Ervin Selimovic - Blog
         </table>
         <hr/>
 
-        <div class="postadd">
+        <div class="postadd blogad">
             <a href="https://www.facebook.com/MMAVelenje/" target="_blank"><img src="assets/img/mmavelenjebanner.jpg" class="img-responsive img-rounded" alt="MMA Velenje" title="MMA Velenje"/></a>
+        </div>
+        <div class="postadd blogad">
+            <a href="https://asstoritve.info" target="_blank"><img src="assets/img/asstoritvebanner.jpg" class="img-responsive img-rounded" alt="As storitve d.o.o." title="As storitve d.o.o., your cleaning service"/></a>
         </div>
     </div>
     </div>

@@ -28,6 +28,14 @@
             @endforeach
           </tbody>
         </table>
+
+                <div class="postadd blogad">
+                    <a href="https://asstoritve.info" target="_blank"><img src="assets/img/asstoritvebanner.jpg" class="img-responsive img-rounded" alt="As storitve d.o.o." title="As storitve d.o.o., your cleaning service"/></a>
+                </div>
+                <div class="postadd blogad">   
+                    <a href="http://www.mega3storitve.si/" target="_blank"><img src="assets/img/mega3storitvebanner.jpg" class="img-responsive img-rounded" alt="Mega 3 storitve" title="Mega 3 storitve"/></a>
+                </div>
+                <br/>
     </div>
 
     <div class="col-sm-6">
@@ -90,7 +98,14 @@ $ composer dumpautoload
       </pre>
 
 <hr/>
+
+<a class="twitter-timeline" href="https://twitter.com/onesnzeros10" data-widget-id="725317676378238980">Tweets by @onesnzeros10</a>
+
     </div>
   </div>
 </div>
+@stop
+
+@section('validatejs') 
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 @stop
