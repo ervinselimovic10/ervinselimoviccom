@@ -9,8 +9,8 @@
     <!-- Page Content -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-            <h3><a href="/blog" class="goback">Go back</a></h3>
+            <div class="col-sm-1">
+            <h3><a href="/blog" class="goback"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></h3>
             <br/>
             </div>
 
@@ -111,7 +111,7 @@
                 <hr/>
             </div>
 
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="postadd">
                     <a href="https://www.facebook.com/MMAVelenje/" target="_blank"><img src="assets/img/mmavelenjebanner.jpg" class="img-responsive img-rounded" alt="MMA Velenje" title="MMA Velenje"/></a>
                 </div>
