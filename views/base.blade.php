@@ -9,7 +9,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@onesnzeros10" />
     <meta name="twitter:creator" content="@onesnzeros10"/>
-    <meta property="fb:app_id" content="100008502765306" />
+    <meta property="fb:page_id" content="100008502765306" />
     <meta name="twitter:title" content="Ervin Selimovic, Web Developer @Personal Blog" />
     <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervinselimoviccom.jpg" />
     <meta name="twitter:description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />

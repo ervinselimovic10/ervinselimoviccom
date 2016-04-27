@@ -9,7 +9,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@onesnzeros10" />
     <meta name="twitter:creator" content="@onesnzeros10"/>
-    <meta property="fb:app_id" content="100008502765306" />
+    <meta property="fb:page_id" content="100008502765306" />
   @if (isset($title))
     <meta property="og:title" content="{{ $title }} - Ervin Selimovic" />
     <meta name="twitter:title" content="{{ $title }}" />
