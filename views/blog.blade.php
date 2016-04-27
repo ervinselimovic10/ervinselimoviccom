@@ -123,7 +123,16 @@ $ composer dumpautoload
 </ul>
   @endif
 @endif
+
+<hr/>
+
+<a class="twitter-timeline" href="https://twitter.com/onesnzeros10" data-widget-id="725317676378238980">@onesnzeros10 Tweets</a>
+
     </div>
   </div>
 </div>
+@stop
+
+@section('validatejs')
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 @stop
