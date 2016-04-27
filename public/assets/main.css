@@ -96,11 +96,6 @@ body > .container {
   cursor: pointer;
 }
 
-.blogad {
-  display: inline-block !important;
-  padding-left: 0px;
-}
-
 /* ADDING NEW */
 .homemain {
   color: rgb(96, 217, 241);

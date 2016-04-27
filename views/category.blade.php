@@ -29,10 +29,10 @@
           </tbody>
         </table>
 
-                <div class="postadd blogad">
+                <div class="postadd">
                     <a href="https://asstoritve.info" target="_blank"><img src="assets/img/asstoritvebanner.jpg" class="img-responsive img-rounded" alt="As storitve d.o.o." title="As storitve d.o.o., your cleaning service"/></a>
                 </div>
-                <div class="postadd blogad">   
+                <div class="postadd">   
                     <a href="http://www.mega3storitve.si/" target="_blank"><img src="assets/img/mega3storitvebanner.jpg" class="img-responsive img-rounded" alt="Mega 3 storitve" title="Mega 3 storitve"/></a>
                 </div>
                 <br/>
