@@ -13,8 +13,8 @@
     <meta property="og:title" content="{{ $title }} - Ervin Selimovic" />
     <meta name="twitter:title" content="{{ $title }}" />
   @else
-    <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
-    <meta name="twitter:title" content="Ervin Selimovic - Words of wisdom from code lover" />
+    <meta property="og:title" content="Ervin Selimovic, Web Developer @Personal Blog" />
+    <meta name="twitter:title" content="Ervin Selimovic, Web Developer @Personal Blog" />
   @endif
 
   @if (isset($tags))
@@ -27,17 +27,17 @@
     <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
   @else
-    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
-    <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
+    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervinselimoviccom.jpg" />
+    <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervinselimoviccom.jpg" />
   @endif
   @if (isset($page_content))
-    <meta name="twitter:description" content="{{ $title }}. Jump in and check other topics too!" />
-    <meta name="description" content="{{ $title }}. Jump in and check other topics too!" />
-    <meta property="og:description" content="{{ $title }}. Jump in and check other topics too!" />
+    <meta name="twitter:description" content="Personal Blog - Ervin Selimovic, Web developer #Article {{ $title }}." />
+    <meta name="description" content="Personal Blog - Ervin Selimovic, Web developer #Article {{ $title }}." />
+    <meta property="og:description" content="Personal Blog - Ervin Selimovic, Web developer #Article {{ $title }}." />
   @else
-    <meta name="twitter:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
-    <meta name="description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
-    <meta property="og:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
+    <meta name="twitter:description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
+    <meta name="description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
+    <meta property="og:description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
   @endif
   @if (isset($slug))
     <meta property="og:url" content="https://ervinselimovic.com/{{ $slug }}" />

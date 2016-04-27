@@ -9,19 +9,19 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@onesnzeros10" />
     <meta name="twitter:creator" content="@onesnzeros10"/>
-    <meta name="twitter:title" content="Ervin Selimovic - Words of wisdom from code lover" />
-    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
-    <meta name="twitter:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
-    <meta property="og:title" content="Ervin Selimovic - Words of wisdom from code lover" />
+    <meta name="twitter:title" content="Ervin Selimovic, Web Developer @Personal Blog" />
+    <meta name="twitter:image" content="https://ervinselimovic.com/assets/img/ervinselimoviccom.jpg" />
+    <meta name="twitter:description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
+    <meta property="og:title" content="Ervin Selimovic, Web Developer @Personal Blog" />
     <meta name="keywords" content="Ervin Selimovic, Ervin Selimovic blog, Ervin Selimovic web, Ervin Selimovic web developer" />
     <meta name="author" content="Ervin Selimovic" />
   @if ((isset($picture)) && ($picture !== null))
     <meta property="og:image" content="https://ervinselimovic.com/assets/img/{{ $picture }}" />
   @else
-    <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervin.jpg" />
+    <meta property="og:image" content="https://ervinselimovic.com/assets/img/ervinselimoviccom.jpg" />
   @endif
-    <meta name="description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
-    <meta property="og:description" content="Ervin Selimovic, Web developer or simply just code lover. Blogging to not forget..." />
+    <meta name="description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
+    <meta property="og:description" content="Personal Blog - Ervin Selimovic, Web developer or simply just Code lover. Linux Ubuntu server, Javascript and PHP based topics. Blogging to not forget.." />
     <meta property="og:url" content="https://ervinselimovic.com" />
 
   <title>@yield('browsertitle')</title>
