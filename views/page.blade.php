@@ -32,7 +32,9 @@
                 @if ((Onz\Auth\LoggedIn::user()) && (Onz\Auth\LoggedIn::user()->access_level == 666))
                 <form method="post" action="40c2CxwIB370zVGDGsV0905kAK6SWXas" id="editpage" name="editpage">
                     <article id="editablecontent" class="editablecontent" itemprop="description" style="width: 100%; line-height: 2em;">
+                        <div class="pagecontent">
                         {!! $page_content !!}
+                        </div>
                     </article>
                     <article class="admin-hidden">
                         <a class="btn btn-primary" href="#" onclick="saveEditedPage()">Save</a>
@@ -48,7 +50,9 @@
                     <input type="hidden" name="page_id" value="{!! $page_id !!}"/>
                 </form>
                 @else 
+                    <div class="pagecontent">
                     {!! $page_content !!} 
+                    </div>
                 @endif
                 <section id="comments">
                 </section>
@@ -108,6 +112,15 @@
             </div>
 
             <div class="col-sm-2">
+                <div class="postadd">
+                    <a href="https://www.facebook.com/MMAVelenje/" target="_blank"><img src="assets/img/mmavelenjebanner.jpg" class="img-responsive img-rounded" alt="MMA Velenje" title="MMA Velenje"/></a>
+                </div>
+                <div class="postadd">
+                    <a href="https://asstoritve.info" target="_blank"><img src="assets/img/asstoritvebanner.jpg" class="img-responsive img-rounded" alt="As storitve d.o.o." title="As storitve d.o.o., your cleaning service"/></a>
+                </div>
+                <div class="postadd">   
+                    <a href="http://www.mega3storitve.si/" target="_blank"><img src="assets/img/mega3storitvebanner.jpg" class="img-responsive img-rounded" alt="Mega 3 storitve" title="Mega 3 storitve"/></a>
+                </div>
             </div>
         </div>
     </div>

@@ -36,6 +36,10 @@ Ervin Selimovic - Blog
           </tbody>
         </table>
         <hr/>
+
+        <div class="postadd">
+            <a href="https://www.facebook.com/MMAVelenje/" target="_blank"><img src="assets/img/mmavelenjebanner.jpg" class="img-responsive img-rounded" alt="MMA Velenje" title="MMA Velenje"/></a>
+        </div>
     </div>
     </div>
 
