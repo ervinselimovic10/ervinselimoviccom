@@ -5,7 +5,7 @@
 
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here.
-	config.extraPlugins = 'insertpre';
+	config.extraPlugins = 'insertpre,image';
 
   CKEDITOR.config.insertpre_class = 'code';
 
